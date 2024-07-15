@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color:aquamarine;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link {
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+
+}
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao_conteudo {
+    width: 2615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+.apresentacao_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao_cursos {
+    display: flex;   
+    flex-wrap: wrap;
+    
+}
+.apresentacao_cursos_links {
+    width: 105px;
+    height: 105px;
+}
+.cursos_links {
+    width: 400px;
+    height: 250px;
+}
